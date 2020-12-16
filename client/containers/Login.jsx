@@ -23,6 +23,7 @@ function Login() {
   }
   return (
     <div className="Login component">
+      <h1>Managing your library is just a few clicks away!</h1>
       <form onSubmit={handleSubmit}>
         <p>Login to your account</p>
         <label forhtml="username">Username</label>
@@ -30,6 +31,10 @@ function Login() {
         <label forhtml="username">Password</label>
         <input name="password" type="password" />
         <input type="submit" value="Log In" />
+        <h4>
+          Don't have an account? <br />
+          Click below!
+        </h4>
       </form>
     </div>
   );
